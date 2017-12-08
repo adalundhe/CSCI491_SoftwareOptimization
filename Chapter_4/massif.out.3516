@@ -1,0 +1,62 @@
+desc: (none)
+cmd: ./game_of_life_table 1000 0
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=2124646
+mem_heap_B=72704
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=2246077
+mem_heap_B=2176004
+mem_heap_extra_B=28
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=33688468215
+mem_heap_B=2177028
+mem_heap_extra_B=36
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=33688484975
+mem_heap_B=2177028
+mem_heap_extra_B=36
+mem_stacks_B=0
+heap_tree=peak
+n3: 2177028 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 2103300 0x400BFB: main (in /home/minibeastie/Documents/CSCI491_SoftwareOptimization/Chapter_4/game_of_life_table)
+ n1: 72704 0x4EBCB1E: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.22)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+     n1: 72704 0x1: ???
+      n1: 72704 0xFFEFFFF6D: ???
+       n1: 72704 0xFFEFFFF82: ???
+        n0: 72704 0xFFEFFFF87: ???
+ n0: 1024 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=5
+#-----------
+time=33688484975
+mem_heap_B=2176004
+mem_heap_extra_B=28
+mem_stacks_B=0
+heap_tree=empty
